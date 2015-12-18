@@ -47,6 +47,13 @@ body, input {
 	height: auto;
 }
 
+.cdn-image-url {
+	border: 1px solid #ccc;
+	padding: 2px 5px;
+	overflow: scroll;
+	white-space: nowrap;
+}
+
 @media all and (min-width: 700px) and (max-width: 1199px) {
 	.cdn-image {
 		width: 44%;
