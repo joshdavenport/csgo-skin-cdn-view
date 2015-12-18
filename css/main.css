@@ -1,0 +1,68 @@
+* { 
+	box-sizing: content-box; 
+}
+
+body {
+	background: #dfdfdf;
+}
+
+body, input { 
+	font: normal 16px/2 "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+#cdn-image-search {
+    background: #fff;
+    margin: 1% 1% 0.5%;
+    padding: 1.2em;
+    font-size: 1.4em;
+}
+
+#cdn-image-search-input {
+    padding: 0.1em 0.5em;
+    font-size: 0.9em;
+    margin-left: 0.5em;
+    width: 15em;
+}
+
+.cdn-image {
+	width: 96%;
+    float: left;
+    background: #fff;
+    padding: 2%;
+    margin: 1%;
+}
+
+.cdn-image .cdn-image-title {
+	font-size: 1.1em;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.cdn-image .cdn-image-display {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+@media all and (min-width: 700px) and (max-width: 1199px) {
+	.cdn-image {
+		width: 44%;
+	}
+
+	.cdn-image:nth-child(2n+1) {
+		clear: left;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	.cdn-image {
+		width: 27.333%;
+	}
+
+	.cdn-image .cdn-image-title {
+		font-size: 1.5em;
+	}
+}
